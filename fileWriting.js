@@ -14,4 +14,4 @@ fs.readFile('word.json', "utf8", (error, data) => {
 
 // json is an object
 //.parse did not work unless its is object
-//
+// that is why we have to change the object to a string before pasring
